@@ -1,0 +1,495 @@
+/*header*/
+.header{
+  width: 100%;
+  padding: 15px;
+  height: 70px;
+}
+.header-icon{
+  width: 15%;
+  display: inline-block;
+  align-items: center;
+}
+.header-nav{
+  list-style: none;
+  float: right;
+}
+.header-nav-item{
+  display:flex
+}
+.header-nav-item li{
+  padding-left: 15px;
+  align-items: center;
+  color: rgb(88, 88, 88);
+}
+/*main*/
+.main{
+  width: 100%;
+}
+.main-box{
+  position: relative;
+}
+.main-firstview{
+  width: 60%;
+  float: right;
+  z-index: 0;
+}
+.main-ttl{
+  font-size: 7vw;
+  color: rgb(138, 63, 73);
+  position: absolute;
+  left: 10%;
+  top: 20px;
+  font-family: 'Caveat', cursive;
+}
+.comment-blue{
+  color: cadetblue;
+}
+.main-ttl-msg{
+  font-size: 2.5vw;
+  color: rgb(138, 63, 73);
+  position: absolute;
+  left: 10%;
+  padding-top: 25vw;
+}
+.estra-since{
+  font-size: 1vw;
+  color: rgb(129, 125, 125);
+  position: absolute;
+  left: 10%;
+  padding-top: 29vw;
+}
+
+.main-box-news{
+  padding-top: 50px;
+}
+.News{
+  font-size: 2vw;
+  color: rgb(138, 63, 73);
+  position: absolute;
+  left: 15%;
+  padding-top: 45vw;
+  font-family: 'Caveat', cursive;
+}
+.new-info{
+  font-size: 2.5vw;
+  color: rgb(94, 93, 93);
+  position: absolute;
+  left: 15%;
+  padding-top: 48vw;
+  font-weight: bold;
+}
+.news-info-item1{
+  background: rgb(105, 102, 102);
+  height: 1px;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  margin-top: 54vw;
+  font-size: 2.5vw;
+}
+.new-info-date{
+  padding-top: 2.7vw;
+  padding-bottom: 20px;
+  color: rgb(129, 125, 125);
+  font-size: 2vw;
+}
+.news-icon{
+  background-color: rgb(138, 63, 73);
+  text-align: center;
+  width: 20%;
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  border-radius: 50vh;
+  display: inline-block;
+  margin-left: 20px;
+}
+.news-msg{
+  color: rgb(129, 125, 125);
+  font-size: 2vw;
+  position: absolute;
+  top: 2.7vw;
+  right: -2vw;
+}
+.news-info-item2{
+  background: rgb(219, 216, 216);
+  height: 1px;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  margin-top: 61.5vw;
+  font-size: 2.5vw;
+}
+.news-info-item3{
+  background: rgb(219, 216, 216);
+  height: 1px;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  margin-top: 69vw;
+  font-size: 2.5vw;
+}
+.news-info-item4{
+  background: rgb(219, 216, 216);
+  height: 1px;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  margin-top: 76.5vw;
+  font-size: 2.5vw;
+}
+.news-info-item5{
+  background: rgb(219, 216, 216);
+  height: 1px;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  margin-top: 83.5vw;
+  font-size: 2.5vw;
+}
+.news-info-item6{
+  background: rgb(105, 102, 102);
+  height: 1px;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  margin-top: 91vw;
+  font-size: 2.5vw;
+}
+
+.about-back-color{
+  background-color: rgb(219, 216, 216);
+  position: absolute;
+  top: 120vw;
+  height: 40vw;
+  width: 100%;
+}
+.About{
+  font-size: 2vw;
+  color: rgb(138, 63, 73);
+  position: absolute;
+  left: 50%;
+  top: 5vw;
+  font-family: 'Caveat', cursive;
+}
+.about-ttl{
+  font-size: 2.5vw;
+  color: rgb(94, 93, 93);
+  position: absolute;
+  right: 33vw;
+  top: 8vw;
+  font-weight: bold;
+}
+.about-msg1{
+  font-size: 1.5vw;
+  color: rgb(129, 125, 125);
+  position: absolute;
+  left: 12%;
+  padding-top: 18vw;
+}
+.about-msg2{
+  font-size: 1.5vw;
+  color: rgb(129, 125, 125);
+  position: absolute;
+  left: 12%;
+  padding-top: 25vw;
+}
+.about-img{
+  width: 32%;
+  position: absolute;
+  left: 60%;
+  top: 13vw;
+}
+
+.Service{
+  font-size: 2vw;
+  color: rgb(138, 63, 73);
+  position: absolute;
+  left: 15%;
+  padding-top: 155vw;
+  font-family: 'Caveat', cursive;
+}
+.service-ttl{
+  font-size: 2.5vw;
+  color: rgb(94, 93, 93);
+  position: absolute;
+  left: 15%;
+  padding-top: 158vw;
+  font-weight: bold;
+}
+.service-box1{
+  width        : 40vw;
+  height       : 35vw;
+  background   : #8a3f49;
+  position: absolute;
+  left: 15%;
+  top: 177.5vw;
+}
+.sevice-first{
+  width: 38%;
+  position: absolute;
+  left: 25%;
+  margin: 1.5vw;
+}
+.service-box-ttl{
+  font-size: 2vw;
+  color: #fff;
+  position: absolute;
+  left: 39%;
+  padding-top: 19vw;
+}
+.service-box-msg{
+  font-size: 1.5vw;
+  color: #fff;
+  position: absolute;
+  padding-top: 21.5vw;
+  margin: 3.5vw;
+}
+.service-box2{
+  width        : 40vw;
+  height       : 17.5vw;
+  background   : #d0818b;
+  position: absolute;
+  left: 55%;
+  top: 177.5vw;
+}
+.sevice-first2{
+  width: 38%;
+  position: absolute;
+  padding: 1vw;
+}
+.service-box-ttl2{
+  font-size: 2vw;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  padding-top: 2vw;
+}
+.service-box-msg2{
+  font-size: 1.5vw;
+  color: #fff;
+  padding-top: 2vw;
+  position: absolute;
+  left: 26%;
+  margin: 4vw;
+}
+.service-box3{
+  width        : 40vw;
+  height       : 17.5vw;
+  background   : #a78a8e;
+  position: absolute;
+  left: 55%;
+  top: 195vw;
+}
+.sevice-first3{
+  width: 38%;
+  position: absolute;
+  padding: 1vw;
+}
+.service-box-ttl3{
+  font-size: 2vw;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  padding-top: 2vw;
+}
+.service-box-msg3{
+  font-size: 1.5vw;
+  color: #fff;
+  padding-top: 1.5vw;
+  position: absolute;
+  left: 26%;
+  margin: 4vw;
+}
+
+.blog-back-color{
+  background-color: rgb(219, 216, 216);
+  position: absolute;
+  top: 225vw;
+  height: 50vw;
+  width: 100%;
+}
+.blog-header{
+  position: absolute;
+  left: 15%;
+  padding-top: 5vw;
+  font-family: 'Caveat', cursive;
+}
+.Blog{
+  font-size: 2vw;
+  color: rgb(138, 63, 73);
+}
+.blog-ttl{
+  font-size: 2.5vw;
+  color: rgb(94, 93, 93);
+  font-weight: bold;
+  padding-top: 1vw;
+}
+.wrapper{
+  width: 95%;
+  justify-content: space-between;
+  padding-top: 13vw;
+  display: flex;
+  padding-left: 7vw;
+}
+.card {
+  width: 35%;
+  cursor: pointer;
+  justify-content: space-between;
+  border: 1px solid #e9eaea;
+  border-radius: 2vh;
+  height: 27vw;
+  background-color: #fff;
+  margin-left: 3vw;
+}
+.content-img {
+  padding: 0px 0;
+  width: 100%;
+  text-align: center;
+  background: #e1f3ff;
+  border-radius: 2vh;
+}
+.blog-first {
+  width:100%;
+  height: auto;
+  border-radius: 2vh 2vh 0 0;
+}
+.blog-item{
+  border-radius: 2vh 0 0 0;
+  font-size: 1vw;
+  background-color: rgb(138, 63, 73);
+  color: white;
+  position: absolute;
+  top: 13.1vw;
+  text-align: center;
+  padding: 1.5vw;
+}
+.text-box{
+  font-size: 1.3vw;
+  padding: 1vw;
+  color: rgb(129, 125, 125);
+  margin: 1vw;
+}
+.date{
+  font-size: 1vw;
+  color: rgb(129, 125, 125);
+}
+.date::after{
+  content: "#COACHTECH";
+  font-size: 1vw;
+  color: rgb(129, 125, 125);
+  float: right;
+}
+a.btn-border {
+  border: 1px solid rgb(138, 63, 73);
+  background: #fff;
+  border-radius: 5vh;
+  color: rgb(138, 63, 73);
+  padding: 2vw;
+  position: absolute;
+  left: 45%;
+  top: 83%;
+}
+
+.company{
+  font-size: 2vw;
+  color: rgb(138, 63, 73);
+  position: absolute;
+  left: 15%;
+  padding-top: 269vw;
+  font-family: 'Caveat', cursive;
+}
+.company-ttl{
+  font-size: 2.5vw;
+  color: rgb(94, 93, 93);
+  position: absolute;
+  left: 15%;
+  padding-top: 271.5vw;
+  font-weight: bold;
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+  position: absolute;
+  top: 276vw;
+  margin: 15vw;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+table th {
+  background-color: #dedede;
+}
+
+.footer{
+  width: 100%;
+  padding-top: 325vw;
+}
+.footer-pic{
+  display: flex;
+}
+.recruit{
+  width: 50%;
+}
+.interview{
+  width: 50%;
+}
+.recruit-ttl{
+  position: absolute;
+  font-size: 3vw;
+  color: #fff;
+  padding: 9vw;
+  left: 9vw;
+}
+.interview-ttl{
+  position: absolute;
+  font-size: 3vw;
+  color: #fff;
+  padding: 9vw;
+  left: 55vw;
+}
+.mail-box{
+  padding-top: 10vw;
+  color: rgb(94, 93, 93);
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+.pink-line{
+  margin: auto;
+  width: 2px;
+  height: 40px;
+  background: rgb(138, 63, 73);
+  margin-top: 2vw;
+}
+.footer-mail-box{
+  margin: auto;
+  margin-top: 2vw;
+  width: 22%;
+  height: 50px;
+  background: linear-gradient(to right, #d0818b, #ff27be);
+  border-radius: 4vh;
+  color: #fff;
+  font-weight: 100;
+}
+.footer-mail-box::before{
+  content: url(../img/mailicon.svg);
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  padding: 0.5vw ;
+  padding-left: -1vw;
+}
+
+.end{
+  width: 100%;
+  height: 5vw;
+  background-color: rgb(240, 239, 239);
+  margin-top: 10vw;
+}
+.end-comment{
+  text-align: center;  
+  color: rgb(122, 122, 122);
+  padding-top: 2vw;
+}
