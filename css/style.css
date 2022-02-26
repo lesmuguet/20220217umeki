@@ -327,9 +327,10 @@
 .wrapper{
   width: 95%;
   justify-content: space-between;
-  padding-top: 13vw;
   display: flex;
-  padding-left: 7vw;
+  padding: 7vw;
+  position: absolute;
+  top: 5vw;
 }
 .card {
   width: 35%;
@@ -359,7 +360,7 @@
   background-color: rgb(138, 63, 73);
   color: white;
   position: absolute;
-  top: 13.1vw;
+  top: 7.1vw;
   text-align: center;
   padding: 1.5vw;
 }
